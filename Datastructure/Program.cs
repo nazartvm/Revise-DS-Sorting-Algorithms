@@ -14,6 +14,7 @@ namespace Datastructure
             PrintSortedValues(SelectionSort.Sort(new int[] {0, 64, 25, 92, 22, 11 }));
             PrintSortedValues(BubbleSort.RecursionSort(new int[] { 110, 0, 64, 25, 92, 22, 11, 99 }));
             PrintSortedValues(BubbleSort.DescendingOrderSort(new int[] { 5,1,2,4,8 }));
+            Console.WriteLine("checking");
             Console.ReadKey();
         }
         /// <summary>
